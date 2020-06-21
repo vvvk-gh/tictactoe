@@ -1,0 +1,25 @@
+body {
+    background: white;
+    color: #323232;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  table#game td{
+    background-color: white;
+    height: 200px;
+    width:200px;
+    border: 1px solid black;
+    border-radius:8px; 
+    text-align:center;
+    font-size: 40pt; 
+  }
+  
+  #resetbtn > button{
+  color :black;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 15pt;
+  margin-bottom: 10px;
+  border:1px solid black;
+  }
