@@ -1,25 +1,21 @@
 body {
-    background: white;
-    color: #323232;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  
-  table#game td{
-    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table#game td {
+    background-color: beige;
     height: 200px;
-    width:200px;
-    border: 1px solid black;
-    border-radius:8px; 
-    text-align:center;
-    font-size: 40pt; 
-  }
-  
-  #resetbtn > button{
-  color :black;
-  background-color: red;
-  border-radius: 20px;
-  font-size: 15pt;
-  margin-bottom: 10px;
-  border:1px solid black;
-  }
+    width: 200px;
+    border: solid saddlebrown 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60pt;
+}
+
+button#restart {
+    padding: 8px;
+    background-color: lightslategray;
+    font-size: 20pt;
+    color: white;
+    border-radius: 15px;
+}
